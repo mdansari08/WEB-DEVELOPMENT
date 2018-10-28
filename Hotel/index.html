@@ -1,0 +1,250 @@
+<html>
+<html lang="en">
+	<head>
+		<title>Ansari Hotel</title>
+        <link rel="icon"  type="image/gif" href="images.jpg" />
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="booking/css/booking.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/styl.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/camera.js"></script>
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<script src="booking/js/booking.js"></script>
+		<script>
+           $(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: false ,
+				minHeight: '444',
+				thumbnails: false,
+				height: '48.375%',
+				caption: true,
+				navigation: true,
+				fx: 'mosaic'
+			});
+
+			/*carousel*/
+
+			var owl=$("#owl");
+				owl.owlCarousel({
+				items : 2, //10 items above 1000px browser width
+				itemsDesktop : [995,2], //5 items between 1000px and 901px
+				itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+				itemsTablet: [700, 2], //2 items between 600 and 0
+				itemsMobile : [479, 1], // itemsMobile disabled 
+				navigation : true,
+				pagination : false
+				});
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+		
+
+	</head>
+	<body class="page1" id="top">
+
+       <script>
+       document.addEventListener('contextmenu', event => event.preventDefault());
+       </script>
+
+<!--header-->
+
+		<header>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="menu_block">
+						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+							<ul class="sf-menu">
+								<li><a href="../">HOME</a></li>
+								<li class="current"><a href="index.html">ABOUT</a></li>
+								<li><a href="index-1.html">INLAND</a></li>
+								
+                                <li><a href="index-3.html">INTERNATIONAL</a></li>
+                                <li><a href="index-2.html">SPECIAL OFFERS</a></li>
+								
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				
+			</div>
+		</header>
+		<div class="slider_wrapper">
+			<div id="camera_wrap" class="">
+				<div data-src="images/page2_img17.jpg">
+					<div class="caption fadeIn">
+						<h2>Dubai</h2>
+						<div class="price">
+							&nbsp;
+							<span>$5,000</span>
+						</div>
+						<a href="dubai.html">See Hotels</a>
+					</div>
+				</div>
+				<div data-src="images/slide4.jpg">
+					<div class="caption fadeIn">
+						<h2>New Delhi</h2>
+						<div class="price">
+							&nbsp;
+							<span>$2,500</span>
+						</div>
+						<a href="delhi.html">See Hotels</a>
+					</div>
+				</div>
+				<div data-src="images/slide1.jpg">
+					<div class="caption fadeIn">
+						<h2>Kasol</h2>
+						<div class="price">
+							&nbsp;
+							<span>$2,000</span>
+						</div>
+						<a href="kasol.html">See Hotels</a>
+					</div>
+				</div>
+				<div data-src="images/pageinland_img10.jpg">
+					<div class="caption fadeIn">
+						<h2>Manali</h2>
+						<div class="price">
+							&nbsp;
+							<span>$3,000</span>
+						</div>
+						<a href="manali.html">See Hotels</a>
+					</div>
+				</div>
+				<div data-src="images/page2_img4.jpg">
+					<div class="caption fadeIn">
+						<h2>Canada</h2>
+						<div class="price">
+							&nbsp;
+							<span>$8,000</span>
+						</div>
+						<a href="canada.html">See Hotels</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!--Content-->
+
+		<div class="content"><div class="ic"></div>
+			<div class="container_12">
+				<div class="grid_4">
+					<div class="banner">
+						<img src="images/page2_img16.jpg" height="365" width="380" alt="">
+						<div class="label">
+							<div class="title">USA</div>
+							<div class="price">&nbsp;<span>$ 5,000</span></div>
+							<a href="usa.html">See Hotels</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<img src="images/ban_img2.jpg" alt="">
+						<div class="label">
+							<div class="title">GOA</div>
+							<div class="price">&nbsp;<span>$ 2,500</span></div>
+							<a href="goa.html">See Hotels</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<img src="images/page2_img17.jpg" height="365" width="380" alt="">
+						<div class="label">
+							<div class="title">DUBAI</div>
+							<div class="price">&nbsp;<span>$ 5,600</span></div>
+							<a href="dubai.html">See Hotels</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+					<div class="grid_6">
+					<h3>Get in Touch</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.8127136925896!2d75.70148031470096!3d31.253607567393797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5a594d22b88d%3A0x4cc934c58d0992ec!2sLovely+Professional+University!5e0!3m2!1sen!2sin!4v1511025609709" width="500" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="grid_5 prefix_1">
+					<h3>Welcome</h3>
+					<img src="images/welcome.jpg" alt="" class="img_inner fleft" height="150" width="90">
+					<div class="extra_wrapper">
+						<p>We take most of the money that we could have spent on paid advertising and instead put it back into the customer experience. Then we let the customers be our marketing.</p>
+					</div>
+					
+				  
+					
+				</div>
+				<div class="grid_12">
+					<h3 class="head1">Latest News</h3>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">10<span>April</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Dubai</a></div>
+							Historically, room tariffs drove the revenues of five-star hotels, but times have changed. F&B’s contribution has risen significantly, and for some luxurious brands, it almost equals room earnings.
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">28<span>April</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">New Delhi</a></div>
+							Services will not be available till 2.30 pm on all lines of Delhi Metro on Friday on account of Holi, The Delhi Metro Rail Corporation (DMRC) said on Wednesday.
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">15<span>April</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Bengaluru</a></div>
+								
+                              The brand expects to add 583 new rooms to its existing portfolio. The additions will be at destinations including Chennai, Pune, Goa, Delhi and Bengaluru.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!--footer-->
+
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="socials">
+						<a href="https://www.facebook.com/HackUean7" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/hackuean7" class="fa fa-twitter"></a>
+						<a href="https://plus.google.com/115145800355780249158" class="fa fa-google-plus"></a>
+					</div>
+					<div class="copy">
+						PRIVACY POLICY  | SITE MAP  | &copy 2018 Ansari Hotel
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+                alert("Sorry,U Cannot..Be Creative!");
+            }
+            return false;
+    };
+    </script>
+  
+	</body>
+</html>
